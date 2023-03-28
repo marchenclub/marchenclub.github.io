@@ -32,3 +32,20 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
     font-size: 20px;
     line-height: 2.5;
 }
+
+@media(max-width:860px){
+    .text-box{
+        width: 80%;
+        background-color: #ffffff57;
+        padding: 200px 60px;
+        margin: 100px auto;
+    }
+    
+    .text-box>h1{
+        font-size: 32px;
+    }
+    
+    .text-box>p{
+        font-size: 16px;
+    }
+}
